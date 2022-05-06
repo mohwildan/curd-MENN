@@ -1,0 +1,75 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+span{
+  margin-right: 1rem;
+}
+.box{
+  display: flex;
+  margin: 1.2rem;
+  align-items: center;
+}
+
+h1{
+  color: #333;
+  margin-right: 4rem;
+}
+
+button{
+  margin: .4rem;
+  border: none;
+  background-color: rgb(192, 12, 12);
+  color: #fff;
+  padding: .5rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.blue-btn{
+  background-color: rgb(120, 19, 182);
+}
+.hijau-btn{
+  background-color: rgb(28, 132, 42);
+}
+section{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25rem;
+}
+
+input{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+input:focus{
+  outline: none;
+}
